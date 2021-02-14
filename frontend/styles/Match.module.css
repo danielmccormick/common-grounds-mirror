@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbc1ac;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.questionForm {
+  background-color: #cab29f;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.submitButton {
+  height: 50px;
+  background-color: #967259;
+  filter: brightness(115%);
+  color: #dbc1ac;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  border-width: 5px;
+  border-color: #967259;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+.signOutButton {
+  align-self: flex-end;
+}
+
+.submitButton:hover {
+  height: 50px;
+  background-color: #967259;
+  filter: brightness(125%);
+  color: #dbc1ac;
+  font-family: 'Montserrat', sans-serif;
+  border-width: 5px;
+  border-color: #967259;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+.h1 {
+  padding-top: 50px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.p {
+  font-size: 16px;
+}
+
+.description {
+  max-width: 60vw;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #967259;
+}
+.divStyle {
+  padding-top: 20px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #dbc1ac;
+}

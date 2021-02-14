@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+
+.container {
+    background-color: #dbc1ac;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: baseline;
+}
+  
+.column {
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+.h1 {
+    align-self: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #967259;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.h2 {
+    align-self: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #38220F;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.description {
+    max-width: 60vw;
+}
+
+.userName {
+    align-self: flex-start;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40px;
+    color: #38220F;
+}
+
+.friendPhoto {
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.friendNameStatus {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #38220F;
+    font-weight: 400;
+}
+
+.friendLink {
+    border-radius: 15px;
+}
+
+.friendLink:hover {
+    text-decoration: none;
+    filter: brightness(90%);
+}
+
+.friend {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.friendsList {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+.stats {
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.stats2 {
+    width: 300px;
+    display: flex;
+    border-radius: 12px;
+    margin-left: 50px;
+}
+
+.allStats {
+    display: flex;
+    justify-content: flex-start;
+    /* align-self: center; */
+    /* align-items: center; */
+    flex-direction: row;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}

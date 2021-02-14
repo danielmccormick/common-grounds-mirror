@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #dbc1ac;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.column {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divStyle {
+  padding-top: 20px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #dbc1ac;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.h1 {
+  text-align: start;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+.muteButton {
+  height: 50px;
+  background-color: #967259;
+  filter: brightness(115%);
+  color: #dbc1ac;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  border-width: 5px;
+  border-color: #967259;
+  display: inline-block;
+  border-radius: 12px;
+  margin-right: 20px;
+  justify-content: center;
+  align-self: center;
+
+}
+
+.muteButton:hover {
+  height: 50px;
+  background-color: #b8947b;
+  filter: brightness(125%);
+  color: #dbc1ac;
+  font-family: 'Montserrat', sans-serif;
+  border-width: 5px;
+  border-color: #b8947b;
+  display: inline-block;
+  border-radius: 12px;
+  margin-right: 20px;
+  justify-content: center;
+  align-self: center;
+}
+
+.buttons {
+  height: 50px;
+  background-color: #41B3A3;
+  filter: brightness(115%);
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  border-width: 5px;
+  border-color: #41B3A3;
+  display: inline-block;
+  border-radius: 12px;
+  justify-content: center;
+  align-self: center;
+}
+
+.buttons:hover {
+  height: 50px;
+  background-color: #41B3A3;
+  filter: brightness(90%);
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  border-width: 5px;
+  border-color: #41B3A3;
+  display: inline-block;
+  border-radius: 12px;
+  justify-content: center;
+  align-self: center;
+}
+
+.acceptFriend {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.acceptButton {
+  width: 70px;
+  margin-right: 30px;
+}
+
+.acceptButton:hover {
+  filter: brightness(115%);
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

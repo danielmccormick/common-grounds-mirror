@@ -1,0 +1,6 @@
+aiohttp==3.7.3
+aiohttp-cors==0.7.0
+firebase-admin==4.5.1
+openai==0.3.0
+requests==2.25.1
+twilio==6.52.0
